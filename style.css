@@ -82,8 +82,16 @@ img:hover{
     height: 500px;
 }
 label{
-    padding: 6px;
+    
     background-color: rgb(248, 232, 9);
     
+    
+}
+section{
+    display: flex;
+    justify-content:space-evenly;
 }
 
+.kuldes{
+   margin-left: 12%;
+}
