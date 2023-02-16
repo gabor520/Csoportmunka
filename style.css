@@ -19,7 +19,9 @@ main{
 body{
     background-image: url("hatterek/Star_Wars_Logo.svg.png");
     background-repeat: no-repeat;
-    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     
 }
 section{
