@@ -4,10 +4,14 @@
 header{
     background-color: black;
     color: rgb(248, 232, 9);
-    height: 160px;
+    height: 100px;
     text-align: center;
     font-size: 30px;
-    font-family: 'Star Jedi', arial;
+    font-family: 'Star Wars';
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-bottom: 25px;
+                                                
 }
 h1{
     margin: 0;
@@ -21,6 +25,7 @@ section{
     justify-content: center;
     gap: 20px 20px;
 }
+@import url(https://allfont.net/allfont.css?fonts=star-jedi);
 main{
     width: 80%;
     max-width: 1200px;
