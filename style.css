@@ -20,21 +20,22 @@ body{
     background-image: url("hatterek/Star_Wars_Logo.svg.png");
     
 }
-section{
-    opacity: 0.7;
-}
 nav{
     background-color: rgb(0, 0, 0);
+    
+    display: flex;
+    justify-content: center;
     
 }
 nav ul{
     list-style-type: none;
-    opacity: 1;
     
+      
 }
 nav ul li{
     padding:5px;
     display:inline-flex;
+    margin :0px 40px 0px 40px;
 }
 nav a{
     text-decoration: none;
