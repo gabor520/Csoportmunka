@@ -4,10 +4,16 @@
 header{
     background-color: black;
     color: rgb(248, 232, 9);
-    height: 200px;
+    height: 160px;
     text-align: center;
     font-size: 30px;
     font-family: 'Star Jedi', arial;
+}
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
 }
 main{
     width: 80%;
@@ -27,7 +33,7 @@ body{
 }
 nav{
     background-color: rgb(0, 0, 0);
-    
+    margin-top: 0;
     display: flex;
     justify-content: center;
     
