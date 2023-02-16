@@ -15,6 +15,12 @@ h1{
 h2{
     margin: 0;
 }
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+}
 main{
     width: 80%;
     max-width: 1200px;
@@ -67,11 +73,14 @@ footer{
 }
 img{
     width: 400px;
-    height: 600px;
+    height: 400px;
     margin: 4px;
     
 }
-
+img:hover{
+    width: 500px;
+    height: 500px;
+}
 label{
     padding: 6px;
     background-color: rgb(248, 232, 9);
