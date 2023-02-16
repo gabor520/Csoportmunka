@@ -57,16 +57,11 @@ img{
     width: 200px;
     height: 200px;
     margin: 4px;
-}
-.kerekhatter{
-    padding: 16px;
-    border-radius: 50%;
-    background:linear-gradient(rgb(0, 0, 0), rgb(248, 232, 9));
     
-       
 }
-.velemeny{
-    padding: 15px;
+
+label{
+    padding: 6px;
     background-color: rgb(248, 232, 9);
     
 }
