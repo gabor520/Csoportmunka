@@ -13,6 +13,9 @@ body{
 nav{
     background-color: rgb(216, 15, 15);
 }
+nav ul{
+    list-style-type: none;
+}
 nav ul li{
     padding: 5px;
 }
@@ -20,6 +23,8 @@ nav a{
     text-decoration: none;
     margin: auto;
     padding: 4px;
+    color: black;
+    
 }
 footer{
     background-color: gray;
