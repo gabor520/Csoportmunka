@@ -2,9 +2,12 @@
    box-sizing: border-box;
 }
 header{
-    background-image: url("kepek/—Pngtree—3d\ colorful\ neon\ rendering\ scene_1235832.jpg");
-    background-size: cover;
-    height: 250px;
+    background-color: black;
+    color: rgb(248, 232, 9);
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Star Jedi', arial;
 }
 main{
     width: 80%;
@@ -17,11 +20,16 @@ body{
     background-image: url("hatterek/Star_Wars_Logo.svg.png");
     
 }
+section{
+    opacity: 0.7;
+}
 nav{
     background-color: rgb(0, 0, 0);
+    
 }
 nav ul{
     list-style-type: none;
+    opacity: 1;
     
 }
 nav ul li{
