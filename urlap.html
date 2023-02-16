@@ -8,23 +8,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piniel Gábor</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <main>
-        <h1>
-            Kérdőív
-            </h1>
-            <nav><ul>
+        <header style="height: 80px;"><h1>Star Wars</h1></header>
+        <nav>
+            <ul>
                 <li><a href="index.html">Képregény</a></li>
                 <li><a href="urlap.html">Kérdőív</a></li>
-              </ul></nav>
-        <form action="#" method="post">
-            <fieldset>
-            <label  for="vNev">Vezetéknév:<input type="text" id="vNev" placeholder="Vezetéknév:" name="vezetekNev"></label>
-            <label  for="kNev">Keresztnév:<input type="text" id="kNev" placeholder="Keresztnév:" name="keresztNev"></label>
-            </fieldset>
-            <label class="velemeny" for="velemeny">Vélemény:<input type="text"  id="velemeny" placeholder="Vélemény:" name="Vélemény" style="width:200px; height:300px;"></label>
-            <input  type="submit" value="Küldés">
+             </ul>
+        </nav>
+        <section>
+            <form>
+                <label for="fname">vezetéknév</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Keresztnév</label><br>
+                <input type="text" id="lname" name="lname">
+              </form>
+              <form>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Nem lett rossz</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Elégedett vagyok az oldallal</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">Mi a ..... :O</label>
+              </form>
+              <textarea name="message" rows="10" cols="30">
+               Vélemény
+              </textarea>
+        </section>
+            
             <footer>Piniel Gábor,Sárdi Gábor</footer>
     </main>
 </body>
