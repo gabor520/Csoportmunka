@@ -5,28 +5,55 @@ main{
     width: 80%;
     max-width: 1200px;
     margin: auto;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
 }
 body{
     background-image: url(hatterek/Star_Wars_Logo.svg.png);
 }
 nav{
-    background-color: rgb(216, 15, 15);
+    background-color: rgb(0, 0, 0);
 }
 nav ul{
     list-style-type: none;
+    
 }
 nav ul li{
-    padding: 5px;
+    padding:5px;
+    display:inline-flex;
 }
 nav a{
     text-decoration: none;
     margin: auto;
     padding: 4px;
-    color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 232, 9);
+    font-size: large;
     
 }
+nav a:hover{
+    background-color: red;
+}
 footer{
-    background-color: gray;
+    background-color:  rgb(248, 232, 9);
     text-align: center;
+    margin: 5px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+}
+.kerekhatter{
+    padding: 16px;
+    border-radius: 50%;
+    background:linear-gradient(rgb(0, 0, 0), rgb(248, 232, 9));
+    
+       
+}
+.velemeny{
+    padding: 15px;
+    background-color: rgb(248, 232, 9);
+    
+    
 }
