@@ -61,5 +61,9 @@ img{
     padding: 15px;
     background-color: rgb(248, 232, 9);
     
-    
+}
+img:hover{
+  height:80%;
+  width: 50%;
+  
 }
