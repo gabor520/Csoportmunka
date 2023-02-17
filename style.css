@@ -25,7 +25,7 @@ section{
     justify-content: center;
     gap: 20px 20px;
 }
-@import url(https://allfont.net/allfont.css?fonts=star-jedi);
+/*@import url(https://allfont.net/allfont.css?fonts=star-jedi); */
 main{
     width: 80%;
     max-width: 1200px;
