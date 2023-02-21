@@ -15,9 +15,12 @@ header{
 }
 h1{
     margin: 0;
+    
 }
 h2{
     margin: 0;
+    
+   
 }
 section{
     display: flex;
@@ -47,6 +50,7 @@ nav{
     margin-top: 0;
     display: flex;
     justify-content: center;
+    
     
 }
 nav ul{
@@ -82,10 +86,11 @@ img{
     margin: 4px;
     
 }
-img:hover{
+/*img:hover{
     width: 500px;
     height: 500px;
 }
+*/
 label{
     
     background-color: rgb(248, 232, 9);
@@ -99,4 +104,25 @@ section{
 
 .kuldes{
    margin-left: 12%;
+}
+@media screen and (min-width:450px) {
+  main{
+  display: flex;
+  flex-direction: column;
+
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  nav{
+    margin:20px;
+  }
+ 
+
 }
